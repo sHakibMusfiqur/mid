@@ -95,7 +95,7 @@ void insert_at_any_position(Node *&head, int index, int val)
     for (int i = 1; i < index; i++)
     {
         temp = temp->next;
-    }
+    } 
 
  
    newNode->next = temp->next;
